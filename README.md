@@ -6,12 +6,10 @@ REST API / CRUD
 using:
 nodejs/mysql/sequelize/express
 
-Запуск:
+! Запуск:
 
-1. В файле ./config/config.json, в первом блоке, вписать логин/пароль для доступа к локальной mysql;
-2. В терминале прописать "npm i";
-3. В терминале прописать "sequelize db:create";
-4. Запуск приложения командой "node app.js" в терминале;
+1. Получить докер образ: "docker pull atsoklan/movies:latest";
+2. Запустить через "docker-compose up", дождаться полного запуска (создания БД и таблиц), после чего можно пользоваться;
 
 Реализованы все возможности описанные в спецификации по полученой ссылке:
 https://documenter.getpostman.com/view/356840/TzkyLeVK#11fde7a2-c427-49d8-865b-444cb8e01c89
