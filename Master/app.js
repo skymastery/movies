@@ -14,7 +14,7 @@ app.use(function (req, res, next) {
   res.status(404).json({ error: '404 - wrong URL' });
 });
 
-app.listen({ port: 5000 }, async () => {
+app.listen({ port: 8000 }, async () => {
   console.log('Server up on http://localhost:5000');
   await sequelize.sync();
   console.log('Database connected');
