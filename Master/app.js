@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
 });
 
 app.listen({ port: 8000 }, async () => {
-  console.log('Server up on http://localhost:5000');
+  console.log('Server up on http://localhost:8000');
   await sequelize.sync();
   console.log('Database connected');
 });
